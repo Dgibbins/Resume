@@ -38,10 +38,13 @@ a{
 
 p{
 	
+
 }
 
 #content1, #content2,#content3,#content4{
 	opacity:1;
+	display: none;
+
 }
 
 .column li{
