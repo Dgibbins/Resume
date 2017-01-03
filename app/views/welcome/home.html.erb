@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 
 <head>
-	<link href="/normalize.css" rel="stylesheet"> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <link href="/normalize.css" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 	<title> Resume: Ryan Anderson</title>
 </head>
@@ -13,36 +14,36 @@
 
 <body>
  <div class="clearfix"> 
-  <div class="column">
+ <div class="column">
 	<ul>
-	  <li> <a href="#">About Me</a></li>
-	  <li> <a href="#">Education</a></li>
-	  <li> <a href="#">Experience</a></li>
-	  <li> <a href="#">References</a></li>
+	  <li id="about"> <span>About Me</span> </li>
+	  <li id='education'> <span>Education</span></li>
+	  <li id='info'> <span>Experience</span></li>
+	  <li id='ref'> <span>References</span></li>
 	</ul>
 	<div class="clr"></div>
-  </div>
+ </div>
 
 
- <div class="content">
+ <div id="content1" class="content show-description">
   <p>About me <br />
   	<small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?</small>
   </p>
  </div>
 
- <div class="content">
+ <div id="content2" class="content" >
   <p>Education <br />
   	<small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?</small>
   </p>
  </div>
 
- <div class="content">
+ <div id="content3" class="content">
   <p>Experience <br />
   	<small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?</small>
   </p>
  </div>
 
- <div class="content">
+ <div id="content4" class="content">
    <p>References <br />
       Paul Garven (co-worker): (780)-828-1111<br />
   	  Paul CWC (owner of CWWC): (416)- 721-1111<br />
@@ -57,5 +58,33 @@
 	e-mail: hotmail@gmail.com</small>
 </p>
 </div>
+
+<script>
+
+$("li#about").click(function(){
+      $("#content1").toggle();
+});
+
+$("li#education").click(function() {
+      $("#content2").toggle();
+});
+
+$("li#info").click(function() {
+      $("#content3").toggle();
+});
+
+$("li#ref").click(function() {
+      $("#content4").toggle();
+});
+/*$("li#about").click(function() {
+      $("#content1").show(500);
+});
+
+/*$("div.column").on("click", "#about", function(){
+  $(this).toggleClass('show-description');
+});*/
+
+
+</script>
 
 </body>

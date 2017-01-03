@@ -18,14 +18,30 @@ body{
 
 }
 
-p{
-
-}
 
 ul{
 	list-style-type:none;
 	padding: 0px 15px;
 	margin: 50px 0;
+}
+
+span{
+	color:white;
+}
+
+li{
+	font-family:Helvetica;
+}
+a{
+	color:white;
+}
+
+p{
+	
+}
+
+#content1, #content2,#content3,#content4{
+	opacity:1;
 }
 
 .column li{
@@ -38,11 +54,11 @@ ul{
 	overflow: hidden;
 }
 
-li{
-	font-family:Helvetica;
+#education{
+		
 }
-a{
-	color:white;
+
+
 }
 .clr{
 	clear:both;
@@ -59,9 +75,10 @@ a{
 	background:#5a4c1c;
 	padding: 5px 2px;
     margin: 10px 10px 0 0;
-	opacity:0.7;
+	opacity:0.5;
 	width: 15%;
 }
+
 .column li:hover{
 	background: black;
 }
@@ -71,18 +88,16 @@ a{
 	font-weight: bold;
 	font-family: helvetica;
 	width:85%;
-
-
-
 }
+
 .footer{
 	text-align: center;
 	background:#5a4c1c;
 	color: white;
 	padding: 10px 0;
 	opacity: 0.5;
-	margin-top:150px;
-	position: relative;
+	margin: 140px auto;
+		
 }
 
 
