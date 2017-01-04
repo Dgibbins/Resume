@@ -1,52 +1,46 @@
 header{
 	background: #5a4c1c;
+	border-radius:10px;
+	opacity:0.85;
+	padding:1px 0;
 }
-
 h1{
 	margin: 0 0;
 	color: white;
 	padding-left:10px;
 }
-
 h3{
 	color:#dad6c7;
 	padding-left: 31px;
 }
-
 body{
 	background:#dad6c7;
-
 }
-
-
 ul{
 	list-style-type:none;
 	padding: 0px 15px;
 	margin: 50px 0;
 }
-
 span{
 	color:white;
 }
-
 li{
 	font-family:Helvetica;
 }
-a{
-	color:white;
+div.column{
+	border-style:solid;
+	border-color:rgba(56,43,3,1);
 }
-
-p{
-	
-
-}
-
-#content1, #content2,#content3,#content4{
+#content1, 
+#content2,
+#content3,
+#content4{
 	opacity:1;
 	display: none;
-
+	padding: 3px auto;
 }
-
+.clear-fix{
+}
 .column li{
 	padding:4px 0 4px 0;
 	margin-top:30px;
@@ -56,22 +50,10 @@ p{
 	font-size: 20px;
 	overflow: hidden;
 }
-
-#education{
-		
-}
-
-
-}
 .clr{
 	clear:both;
 	font-size:0;
 }
-
-.clearfix{
-	
-}
-
 .column{
 	float:left;
 	background-size: 220px 220px;	
@@ -80,27 +62,26 @@ p{
     margin: 10px 10px 0 0;
 	opacity:0.5;
 	width: 15%;
+	border-radius:20px;
 }
-
 .column li:hover{
 	background: black;
+	border-radius:20px;
 }
-
 .content{
 	color:#5a4c1c;
 	font-weight: bold;
 	font-family: helvetica;
 	width:85%;
 }
-
 .footer{
 	text-align: center;
 	background:#5a4c1c;
 	color: white;
 	padding: 10px 0;
 	opacity: 0.5;
-	margin: 140px auto;
-		
+	margin-top: 30%;
+	border-radius:10px;
 }
 
 
@@ -109,83 +90,3 @@ p{
 
 
 
-
-
-
-
-
-/*
-header{
-	
-	text-align:center;
-	background: url("http://wallup.net/wp-content/uploads/2016/03/09/213441-code-The_Matrix-green-movies.jpg");
-	background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-	background-size: cover;
-	border-radius:20px;
-	color: white;
-	opacity: 0,5;
-	margin:0 0;
-	
-
-}
-h1{
-	text-align:center;
-	color: rgba(255,255,255,0.75);
-	font-size: 70px;
-
-
-	
-}
-ul{
-  padding: 10px;
-  background: black;
-  
-  border-radius: 20px;
-}
-li{
-	display: inline;  /* Lines up list horizontally*//*
-	padding: 0 260px; /* padding to seperate links*//*
-	text-align: left;
-	color: rgba(255,255,255,1);
-	
-}
-p{
-	font-size: 20px;
-	text-align: center;
-	color: white;
-	margin: 500px 0;
-}
-
-body{
-    background: url("http://i.imgur.com/k1ZLlUi.jpg");
-   
-    background-color: rgba(22,66,32,0.5);
-	/*background: linear-gradient(to right, rgba(22,66,32,1), rgba(0,0,0,1));
-	*/
-	/*
-	background-position: center center;
-	-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-	background-size: fit;
-
-}
-small{
-	width:200px;
-	color: white;
-	opacity: 1.0;
-	font-size: 20px;
-}
-.backdrop{
-	background-color: lightblue;
-    width: 200px;
-    opacity:0.5;
-    margin: 0px 0px 0px 220px;
-
-}
-.font{
-	color: black;
-}
