@@ -1,87 +1,95 @@
 header{
 	background: #5a4c1c;
-	border-radius:10px;
-	opacity:0.85;
-	padding:1px 0;
+	border-radius: 10px;
+	opacity: 0.85;
+	padding: 1px 0;
 }
-h1{
+.minheight {
+	min-height:200px;
+}
+h1 {
 	margin: 0 0;
 	color: white;
-	padding-left:10px;
+	padding-left: 10px;
 }
-h3{
-	color:#dad6c7;
+h3 {
+	color: #dad6c7;
 	padding-left: 31px;
 }
-body{
-	background:#dad6c7;
+body {
+	background: #dad6c7;
 }
-ul{
-	list-style-type:none;
+ul {
+	list-style-type: none;
 	padding: 0px 15px;
 	margin: 50px 0;
 }
-span{
-	color:white;
+span {
+	color: white;
 }
-li{
-	font-family:Helvetica;
+li {
+	font-family: Helvetica;
 }
-div.column{
-	border-style:solid;
-	border-color:rgba(56,43,3,1);
+div.column {
+	border-style: solid;
+	border-color: rgba(56,43,3,1);
 }
 #content1, 
 #content2,
 #content3,
-#content4{
-	opacity:1;
+#content4 {
+	opacity: 1;
 	display: none;
-	padding: 3px auto;
+	padding: 3px 0;
 }
-.clear-fix{
-}
-.column li{
-	padding:4px 0 4px 0;
-	margin-top:30px;
-	margin-bottom:30px;
+.column li {
+	padding: 4px 0 4px 0;
+	margin-top: 30px;
+	margin-bottom: 30px;
 	font-family:'Oswald', sans-serif;
 	text-align: center;
 	font-size: 20px;
 	overflow: hidden;
 }
-.clr{
-	clear:both;
-	font-size:0;
+.clr {
+	clear: both;
+	font-size: 0;
 }
-.column{
-	float:left;
+.column {
+	float: left;
 	background-size: 220px 220px;	
-	background:#5a4c1c;
+	background: #5a4c1c;
 	padding: 5px 2px;
-    margin: 10px 10px 0 0;
-	opacity:0.5;
-	width: 15%;
-	border-radius:20px;
+    margin: 10px 10px 10px 0;
+	opacity: 0.5;
+	width: 20%;
+	min-width: 134px;
+	border-radius: 20px;
 }
-.column li:hover{
-	background: black;
-	border-radius:20px;
+.group{
+	clear: both;
+	*zoom:1;
 }
-.content{
-	color:#5a4c1c;
+.column li:hover {
+	background:black;
+	border-radius: 20px;
+}
+.content {
+	color: #5a4c1c;
 	font-weight: bold;
 	font-family: helvetica;
-	width:85%;
+	width: 85%;
 }
-.footer{
+.footer {
 	text-align: center;
-	background:#5a4c1c;
+	background: #5a4c1c;
 	color: white;
 	padding: 10px 0;
 	opacity: 0.5;
-	margin-top: 30%;
-	border-radius:10px;
+	margin-top: 0%;
+	border-radius: 10px;
+	clear: both;
+
 }
 
 
